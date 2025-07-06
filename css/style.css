@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background-color: #0f0f1a;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 32px;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background-color: #1a1a2f;
+  border: 1px solid #00ffff50;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 15px #00ffff33;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  background-color: #101020;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00ffff;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.2s;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #00cccc;
+  transform: scale(1.05);
+}
+
+.character-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 0 12px #00ffff88;
+}

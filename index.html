@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Hiiro - AI Prompt Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <h1>Hiiro - Tạo prompt AI nhân vật anime</h1>
+
+    <div class="card">
+      <label for="characterSelect">Chọn nhân vật:</label>
+      <select id="characterSelect"></select>
+
+      <label for="styleSelect">Chọn thể loại:</label>
+      <select id="styleSelect">
+        <option value="default">Bình thường</option>
+        <option value="sexy">Sexy</option>
+        <option value="loli">Loli</option>
+        <option value="school">School Girl</option>
+        <option value="maid">Maid</option>
+        <option value="warrior">Chiến binh</option>
+        <option value="nsfw">NSFW</option>
+      </select>
+
+      <button onclick="generatePrompt()">Tạo Prompt</button>
+      <button onclick="copyPrompt()">📋 Sao chép Prompt</button>
+
+      <textarea id="resultPrompt" placeholder="Prompt sẽ hiển thị ở đây..."></textarea>
+
+      <img id="charImage" class="character-image" src="" alt="Ảnh minh họa nhân vật" style="display:none;" />
+    </div>
+  </div>
+  <script src="js/prompt-generator.js"></script>
+</body>
+</html>
